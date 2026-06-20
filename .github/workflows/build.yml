@@ -13,7 +13,7 @@ jobs:
 
     env:
       REPO_OWNER: ${{ github.repository_owner }}
-      BUILD_IMAGE: container
+      BUILD_IMAGE: nas-container
       BUILD_BRANCH: 44
       BUILD_TAG: 44
 
