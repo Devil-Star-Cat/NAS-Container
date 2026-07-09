@@ -24,4 +24,4 @@ dnf -y install mdadm gdisk
 dnf -y install policycoreutils-python-utils
 semanage port -a -t ssh_port_t -p tcp 1022
 
-dnf -y install ModemManager
+dnf -y install NetworkManager-wifi
